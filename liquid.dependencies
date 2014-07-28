@@ -1,9 +1,9 @@
 [
     {
-        "remote": "cm",
+        "remote": "lsd",
         "repository": "android_device_samsung_smdk4412-common",
         "target_path": "device/samsung/smdk4412-common",
-        "revision": "cm-11.0"
+        "revision": "kitkat"
     },
     {
         "remote": "cm",
@@ -12,10 +12,10 @@
         "revision": "cm-11.0"
     },
     {
-        "remote": "cm",
+        "remote": "lsd",
         "repository": "android_kernel_samsung_smdk4412",
         "target_path": "kernel/samsung/smdk4412",
-        "revision": "cm-11.0"
+        "revision": "kitkat"
     },
     {
         "remote": "cm",
