@@ -19,12 +19,8 @@ LOCAL_PATH := device/samsung/t0lte
 # Overlay
 ifeq ($(TARGET_VOICE_TECH), cdma)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-cdma
-PRODUCT_COPY_FILES += \
-    device/samsung/t0lte/overlay-cdma/prebuilt/720.zip:system/media/bootanimation.zip
 else
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
-PRODUCT_COPY_FILES += \
-    device/samsung/t0lte/overlay/prebuilt/720.zip:system/media/bootanimation.zip
 endif
 
 # This device is xhdpi.  However the platform doesn't
