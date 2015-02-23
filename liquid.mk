@@ -12,14 +12,14 @@ $(call inherit-product, device/samsung/t0lte/full_t0lte.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/nameless/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/nameless/config/common.mk)
+$(call inherit-product, vendor/liquid/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := t0lte
-PRODUCT_NAME := nameless_t0lte
+PRODUCT_NAME := liquid_t0lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-N7105
 PRODUCT_MANUFACTURER := samsung
