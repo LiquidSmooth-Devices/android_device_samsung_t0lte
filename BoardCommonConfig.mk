@@ -31,7 +31,7 @@ COMMON_GLOBAL_CFLAGS += -DCAMERA_WITH_CITYID_PARAM
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/smdk4412
-TARGET_GCC_VERSION_ARM := 4.9-sm
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
 ifeq ($(TARGET_VOICE_TECH), cdma)
 TARGET_KERNEL_CONFIG := liquid_t0ltecdma_defconfig
 else
